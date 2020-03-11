@@ -9,7 +9,7 @@
 
 <img src="./img1.jpg">
 
-<h2><a href="./epic/persona.php">Persona</a></h2>
+<h2><a href="./epic/persona.php">Personas</a></h2>
 
 <h2><a href="./epic/user-story.php">User Story</a></h2>
 
