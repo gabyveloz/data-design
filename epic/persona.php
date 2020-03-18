@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-<h1 class="center">Adeleah the 28 year old Singer.</h1>
+<h1 class="center">Adeleah</h1>
 
 <img src="images.jfif" alt="image" class="center"/>
 

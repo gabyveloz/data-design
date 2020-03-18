@@ -6,7 +6,7 @@
 
 </head>
 <body>
-<p>
+
 <h4>Title:</h4> Posting singing videos on Facebook.
 
 <h4>Description:</h4> Adeleah would like to promote her talent via FB
@@ -27,20 +27,16 @@ the music industry.
 	It began getting viewed by their circle of influence and so on.
 It allowed her to get out of her confort zone and gain more exposure.
 
-</p>
-
-<p>
-<h3>Title: The Daily Use of FB & Equipment</h3>
+<h3>Title: User Interaction Flow</h3>
 <ul>
-	<li>Constant recording of self with Note 10+.</li>
-	<li>Uploading video to computer drive.</li>
-	<li>Open facebook web url</li>
+	<li>Open facebook web URL.</li>
 	<li>Server brings up facebook "login" page.</li>
-	<li> Enter username/password credentials.</li>
-	<li>Upload video to Facebook & make it public.</li>
+	<li>Enter username/password credentials.</li>
+	<li>Click on "update status/video".</li>
+	<li>Add Video of choice file.</li>
+	<li>Upload video to Facebook & mark it public.</li>
 	<li>Tag family/friends for them to share.</li>
 	</ul>
-</p>
 
 <div class="center">
 	<h3 class="center">Pro's</h3>
