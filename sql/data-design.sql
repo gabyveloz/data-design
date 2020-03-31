@@ -2,7 +2,7 @@ ALTER DATABASE gveloz CHARACTER SET utf8 COLLATE utf8_unicode_ci;
 
 CREATE TABLE userProfile(
 	userProfileId BINARY(16) NOT NULL,
-	userProfileDob DATE(8),
+	userProfileDob DATE,
 	userProfileEmail VARCHAR(120) NOT NULL,
 	userProfileGender CHAR(1),
 	userProfileName VARCHAR(32) NOT NULL,
@@ -15,7 +15,8 @@ CREATE TABLE content(
 	contentVideo VARCHAR(4000),
 	contentText VARCHAR(200),
 	contentUserProfileId BINARY(20) NOT NULL,
-	FOREIGN KEY(contentUserProfileId),
+	INDEX (contentUserProfileId),
+	FOREIGN KEY(contentUserProfileId) REFERENCES userProfile(userProfileId),
 	PRIMARY KEY(contentId)
 );
 
@@ -24,8 +25,8 @@ CREATE TABLE reaction(
 	reactionUserProfileId BINARY(16),
 	reactionContentId VARCHAR(4000),
 	reactionType BINARY(10),
-	FOREIGN KEY(reactionUserProfileId),
-	FOREIGN KEY(reactionContentId)
+	INDEX (reactionUserProfileId),
+	FOREIGN KEY(reactionUserProfileId) REFERENCES userProfile(userProfileId),
+	INDEX (reactionContentId),
+	FOREIGN KEY(reactionContentId) REFERENCES content(contentId)
 );
-
-show tables
