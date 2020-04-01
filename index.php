@@ -17,7 +17,7 @@
 
 <h3>-------------------</h3>
 
-<h2><a href="./conceptual-model.html">Conceptual</a></h2>
+<h2><a href="./conceptual-model.html">Conceptual Diagram</a></h2>
 
 <h2><a href="./entity-relationship-diagram.html">Entity Relationship Diagram</a></h2>
 
