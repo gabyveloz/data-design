@@ -20,6 +20,8 @@ CREATE TABLE content(
 	PRIMARY KEY(contentId)
 );
 
+
+
 /*weak entity*/
 CREATE TABLE reaction(
 	reactionUserProfileId BINARY(16),
