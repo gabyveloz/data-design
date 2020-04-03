@@ -14,7 +14,7 @@ CREATE TABLE content(
 	contentId BINARY(16) NOT NULL,
 	contentVideo VARCHAR(4000),
 	contentText VARCHAR(200),
-	contentUserProfileId BINARY(20) NOT NULL,
+	contentUserProfileId BINARY(16) NOT NULL,
 	INDEX (contentUserProfileId),
 	FOREIGN KEY(contentUserProfileId) REFERENCES userProfile(userProfileId),
 	PRIMARY KEY(contentId)
@@ -25,7 +25,7 @@ CREATE TABLE content(
 /*weak entity*/
 CREATE TABLE reaction(
 	reactionUserProfileId BINARY(16),
-	reactionContentId VARCHAR(4000),
+	reactionContentId BINARY(16),
 	reactionType BINARY(10),
 	INDEX (reactionUserProfileId),
 	FOREIGN KEY(reactionUserProfileId) REFERENCES userProfile(userProfileId),
